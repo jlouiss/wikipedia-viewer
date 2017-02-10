@@ -1,0 +1,19 @@
+{
+  "name": "wikipedia-viewer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:jlouiss/wikipedia-viewer.git",
+  "author": "Jean Louis Salbego <jlsalbego@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-env": "^1.1.8",
+    "css-loader": "^0.26.1",
+    "node-sass": "^4.5.0",
+    "pug-html-loader": "^1.1.0",
+    "sass-loader": "^5.0.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^2.2.1"
+  }
+}
