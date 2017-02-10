@@ -1,10 +1,10 @@
-const path = require('path')
+const path = require('path');
 
 module.exports = {
-  entry: './js/weather.js',
+  entry: './src/js/scripts.js',
   output: {
     filename: 'bundle.js',
-    path: path.resolve(__dirname, 'js')
+    path: path.resolve(__dirname, 'src/js')
   },
 
   module: {
