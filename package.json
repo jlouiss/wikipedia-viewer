@@ -21,6 +21,6 @@
     "webpack": "^2.2.1"
   },
   "scripts": {
-    "build": "pug src/index.pug && webpack"
+    "build": "pug src/index.pug && mv src/index.html ./index.html && webpack"
   }
 }
